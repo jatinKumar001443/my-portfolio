@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    ;
+}
+body{
+    background-color:#04080F;
+    padding: 10px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+h1{
+    color: gold;
+    text-align: center;
+    font-family:system-ui;
+    font-size: 35px;
+    margin-top: 10px;
+}
+#navbar{
+    height: auto;
+    background-color: gold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 12px;
+    line-height: normal;
+    margin-top: 10px;
+    padding: 10px;
+}
+#navbar nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: #04080F;
+    font-family: system-ui;
+    font-weight: bold;
+}
+section{
+    margin-bottom: 40px;
+}
+#heading_1, #heading_2, #heading_3, #heading_4, #heading_5, #heading_6, #heading_7, #heading_8 {
+    text-align: left;
+    font-size: 30px;
+    color: gold;
+    font-family: system-ui;
+    margin-bottom: 10px;
+}
+#personal_info, #career_Objective, #education, #skills, #projects, #certificates, #soft_skills, #contact {
+    line-height: 35px;
+    font-size: 18px;
+    margin: 30px;
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+    color: gold;
+    background-color: #04080F;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    #navbar {
+        font-size: 16px;
+    }
+
+    #navbar nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
