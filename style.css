@@ -40,6 +40,11 @@ nav a{
     font-family: system-ui;
     font-weight: bold;
 }
+nav a :hover {
+    color:gold;
+    background-color:black;
+}
+    
 section{
     margin-bottom: 40px;
 }
